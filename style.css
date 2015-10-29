@@ -39,56 +39,52 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .link {
     position: absolute;
+    color: white;
+    text-decoration: none;
 }
-.link.what-we-do {
+.link[href="what"] {
     top: 50%;
     left: 10%;
 }
-.link.what-we-do :first-child {
+.link[href="what"] :first-child {
     transform: rotate(30deg);
 }
-.link.what-we-do :nth-child(2) {
+.link[href="what"] :nth-child(2) {
     transform: rotate(35deg);
     margin-top: 12px;
 }
-.link.what-we-do :nth-child(3) {
+.link[href="what"] :nth-child(3) {
     transform: rotate(35deg);
     margin-right: 40px;
 }
 
-.link.why-we-do-it {
+.link[href="why"] {
     top: 70%;
     left: 40%;
 }
-.link.why-we-do-it :first-child {
+.link[href="why"] :first-child {
     transform: rotate(40deg);
 }
-.link.why-we-do-it :nth-child(2) {
+.link[href="why"] :nth-child(2) {
     transform: rotate(47deg);
     margin-left: 80px;
     margin-top: -40px;
 }
-.link.why-we-do-it :nth-child(3) {
+.link[href="why"] :nth-child(3) {
     transform: rotate(49deg);
     margin-left: 130px;
     margin-top: -40px;
 }
-.link.why-we-do-it :last-child {
+.link[href="why"] :last-child {
     transform: rotate(50deg);
     margin-left: 180px;
     margin-top: -40px;
 }
-
-.link.why-you-should-too {
-    top: 20%;
-    left: 65%;
-    transform: rotate(47deg);
-}
-
-.link.join-us {
+.link[href="join"] {
     top: 70%;
     left: 80%;
 }
