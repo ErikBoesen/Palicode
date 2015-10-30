@@ -1,3 +1,57 @@
 header {
     flex-direction: row;
+    background-image: url(images/bg/2.jpg);
+    background-size: cover;
+    transition: .2s;
+}
+img {
+    height: 100px;
+    margin-right: -20px;
+    margin-top: -20px;
+}
+.floatingLink {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+}
+.floatingLink[href="what"] {
+    top: 50%;
+    left: 10%;
+}
+.floatingLink[href="what"] :first-child {
+    transform: rotate(30deg);
+}
+.floatingLink[href="what"] :nth-child(2) {
+    transform: rotate(35deg);
+    margin-top: 12px;
+}
+.floatingLink[href="what"] :nth-child(3) {
+    transform: rotate(35deg);
+    margin-right: 40px;
+}
+.floatingLink[href="why"] {
+    top: 70%;
+    left: 40%;
+}
+.floatingLink[href="why"] :first-child {
+    transform: rotate(40deg);
+}
+.floatingLink[href="why"] :nth-child(2) {
+    transform: rotate(47deg);
+    margin-left: 80px;
+    margin-top: -40px;
+}
+.floatingLink[href="why"] :nth-child(3) {
+    transform: rotate(49deg);
+    margin-left: 130px;
+    margin-top: -40px;
+}
+.floatingLink[href="why"] :last-child {
+    transform: rotate(50deg);
+    margin-left: 180px;
+    margin-top: -40px;
+}
+.floatingLink[href="join"] {
+    top: 70%;
+    left: 80%;
 }
